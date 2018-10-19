@@ -1,0 +1,26 @@
+Correu electrònic: Definició i principis de funcionament d'un servei de correu electrònic, protocols de comunicació, principis de seguretat, administració de servidors MSExchange i clients MSOutlook.
+
+El correu electrònic és un servei informàtic que permet la transmissió i recepció de missatges entre usuaris d’una o diferents xarxes, esmerçant les passareles corresponents.  Aquests missatges són en mode bàsic de tipus text, però tot sovint, compten amb la possibilitat d’adjuntar-hi arxius, sempre que compleixin amb els requisits establerts en la plataforma esmerçada. 
+
+Un servei d’aquestes característiques compta, essencialment, amb un servidor que gestiona les diferents bústies, on segons els privilegis assignats, hi accedeixen els usuaris. Aquests, identificats en el respectiu comptes d’usuari, disposa de les diferents bústies assignades, des d’on gestionar el correus. A més, tot sovint, compten amb d’altres serveis afegits com poden ser l’ús de calendaris, llibretes d’adreces o carpetes públiques.
+
+L’estructura bàsica a d’un missatge és:
+Destinatari, a qui va dirigit (To, Carbon Copy, Blind Carbon Copy) 
+Assumpte, resum del tema que es tractarà (Subject)
+Text, desevolupament del tema a tractar, (Body)
+Adjunts, fitxers que opcionalment es poden afegir al missatge (Attachment)
+
+A part, cal indicar que cada correu rebut disposa d’una capçalera amb informació rellevant com és: el remitent, els servidors per on ha passat,  data i servidor que recepciona el correu, entre d’altres.
+
+Pel que fa als protocols més utilitzats  s’esmercen per tal de poder establir una comunicació, cal indicar principalment tres:
+- SMTP (Simple Mail Transfer Protocol), que té com a funció bàsica gestionar el correu sortint.
+- POP3  (Post Office Protocol), esmerçat per a la descàrrega en local dels correus. Ideal per a consultar correus enmmagatzemants en el dispositu quan no es diposa de connectivitat a Internet
+- IMAP (Internet Message Acces Protocol), esmerçat per a la consulta online de la bústia. Dissenyat per a fer consultes des de diferents dispositius que tinguin connectivitat permanent amb Internet.
+
+Pel que fa a la seguretat cal indicar que de manera nativa els correus viatgen en clar per la xarxa, D’aquesta manera, és possible la seva intercepció, facilitant la seva lectura i/o manipulació per un tercer. Així, és aconsellable la utilització de dues tècniques, basades en tècniques criptogràfiques, i que poden fer-se servir conjuntament, per tal de garantir-ne la integritat.
+Signatura electrònica: permet aplicar una funció resum que garantexi la no manipulació del text original.
+Xifratge (encriptació): s’encapsula tota la informació en un canal segur, que en cas de ser iinterceptat el missatge per un tercer, no permet el seu desxifrat. 
+
+Un dels tàndems més habitualment esmerçats en entorns Windows és la utilització d’un servidor Exchange i el seu accés via client Outlook.  Aquest servidor, permet l’administració de comptes d’usuari i bústies afins, podent assignar permisos de manera granular a les mateixes. Així doncs, es possible administrar els permisos sobre una bústia a usuaris o grups i definir-ne tant el nivell d’accés (atributs)  com els recursos assignats (directives) a cada ítem. Pel que fa al client Outlook en local, permet la connectivitat a les bústies, via els diferents protocols descrits anteriorment, tot presentant a l’usuari els recursos assignats. Un cop realitzat el procés de validació, aquesta interfície posa a l’abast de l’usuari els recursos propis i les opcions de gestió de la missatgeria. Cal indicar, per finalitzar, que també hi ha disponible una versió “webmail” amb funcionalitats similars, però dissenyada per a la gestió de bústies en línia. 
+
+
